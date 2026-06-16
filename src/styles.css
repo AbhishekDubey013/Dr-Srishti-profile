@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #ffffff;
+}
+
+::selection {
+  background: #d8f1ed;
+  color: #143f3c;
+}
+
+.section-offset {
+  scroll-margin-top: 5.5rem;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-quiet,
+.link-button {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.75rem 1.15rem;
+  font-size: 0.925rem;
+  font-weight: 700;
+  line-height: 1.1;
+  transition:
+    transform 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.btn-primary {
+  background: #0f766e;
+  color: #ffffff;
+  box-shadow: 0 14px 30px rgba(15, 118, 110, 0.18);
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background: #115e59;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  border: 1px solid #a6d8d0;
+  background: #ffffff;
+  color: #115e59;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  border-color: #0f766e;
+  background: #effaf8;
+  transform: translateY(-1px);
+}
+
+.btn-quiet {
+  color: #115e59;
+}
+
+.btn-quiet:hover,
+.btn-quiet:focus-visible {
+  background: #effaf8;
+}
+
+.link-button {
+  min-height: 2.35rem;
+  border: 1px solid #dbe7e5;
+  padding: 0.58rem 0.8rem;
+  color: #115e59;
+}
+
+.link-button:hover,
+.link-button:focus-visible {
+  border-color: #0f766e;
+  background: #effaf8;
+}
+
+.form-field {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  padding: 0.85rem 1rem;
+  color: #102a32;
+  outline: none;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.form-field:focus {
+  border-color: #0f766e;
+  box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.13);
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #d8f1ed;
+}
+
+.carousel-control {
+  display: inline-flex;
+  height: 2.75rem;
+  width: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border: 1px solid #cbd5e1;
+  color: #115e59;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background-color 180ms ease;
+}
+
+.carousel-control:hover,
+.carousel-control:focus-visible {
+  border-color: #0f766e;
+  background: #effaf8;
+  transform: translateY(-1px);
+}
+
+.animate-rise {
+  animation: rise 650ms ease both;
+}
+
+.animate-fade {
+  animation: fade 420ms ease both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.55;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
