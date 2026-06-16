@@ -53,9 +53,6 @@ function GalleryCarousel() {
                   {activeItem.title}
                 </h3>
                 <p className="mt-4 leading-7 text-slate-600">{activeItem.description}</p>
-                <p className="mt-5 text-sm leading-6 text-slate-500">
-                  Publish only images with appropriate consent and institutional approval where required.
-                </p>
               </div>
 
               <div className="mt-8">
