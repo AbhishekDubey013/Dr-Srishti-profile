@@ -14,4 +14,4 @@ npm run dev
 Most text, links, image paths, and CV paths live in `src/data/profile.js`.
 
 Replace `public/images/dr-srishti-mishra.jpeg` with the final profile image if needed.
-Add the final CV at `public/cv/dr-srishti-mishra-cv.pdf` or update `cvPath` in the profile data.
+Add the final CV at `public/cv/dr-srishti-cv.pdf` or update `cvPath` in the profile data.

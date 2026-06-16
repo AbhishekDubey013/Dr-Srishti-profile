@@ -8,7 +8,7 @@ export const profile = {
   // Replace this file in public/images if a new professional portrait is used.
   imagePath: "/images/dr-srishti-mishra.jpeg",
   // Replace with the final CV PDF path when available.
-  cvPath: "/cv/dr-srishti-mishra-cv.pdf",
+  cvPath: "/cv/dr-srishti-cv.pdf",
   heroText:
     "Community Medicine physician with clinical, field-practice, academic, and public health experience across rural and urban health settings, with a focus on community-based care, maternal health, geriatric health, medical education, and public health implementation.",
   about:
