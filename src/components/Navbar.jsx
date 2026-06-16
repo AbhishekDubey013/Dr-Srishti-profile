@@ -11,7 +11,7 @@ function Navbar() {
         className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8"
         aria-label="Primary navigation"
       >
-        <a href="#home" className="flex items-center gap-3" aria-label="Dr. Srishti Mishra home">
+        <a href="#home" className="flex items-center gap-3" aria-label="Dr. Srishti home">
           <span className="flex h-10 w-10 items-center justify-center rounded-full bg-medical-600 text-sm font-bold text-white">
             SM
           </span>

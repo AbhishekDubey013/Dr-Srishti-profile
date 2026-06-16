@@ -1,6 +1,6 @@
-# Dr. Srishti Mishra Website
+# Dr. Srishti Website
 
-A responsive React and Tailwind CSS personal website for Dr. Srishti Mishra.
+A responsive React and Tailwind CSS personal website for Dr. Srishti.
 
 ## Run locally
 

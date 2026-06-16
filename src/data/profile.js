@@ -1,5 +1,5 @@
 export const profile = {
-  name: "Dr. Srishti Mishra",
+  name: "Dr. Srishti",
   credentials: "MBBS | MD Community Medicine",
   role: "Community Medicine Resident | Public Health & Field Practice | Medical Education",
   location: "Ahmedabad, Gujarat, India",
@@ -12,7 +12,7 @@ export const profile = {
   heroText:
     "Community Medicine physician with clinical, field-practice, academic, and public health experience across rural and urban health settings, with a focus on community-based care, maternal health, geriatric health, medical education, and public health implementation.",
   about:
-    "Dr. Srishti Mishra is an MBBS graduate and MD Community Medicine resident with experience in hospital-based clinical care, public health field practice, rural and urban health centre postings, community outreach, and undergraduate teaching support. Her work spans rural health services, antenatal care, geriatric health, medical student well-being, and community-based public health implementation.",
+    "Dr. Srishti is an MBBS graduate and MD Community Medicine resident with experience in hospital-based clinical care, public health field practice, rural and urban health centre postings, community outreach, and undergraduate teaching support. Her work spans rural health services, antenatal care, geriatric health, medical student well-being, and community-based public health implementation.",
 };
 
 export const navigation = [
@@ -118,21 +118,21 @@ export const gallery = [
     title: "Clinical Team Collaboration",
     description:
       "Field and clinical teamwork across multidisciplinary settings, supporting coordinated community-oriented care.",
-    alt: "Dr. Srishti Mishra with a clinical team in a hospital department.",
+    alt: "Dr. Srishti with a clinical team in a hospital department.",
   },
   {
     image: "/images/clinical-procedure.jpeg",
     title: "Procedure Room Exposure",
     description:
       "Hands-on clinical exposure during supervised procedural care and emergency-response learning.",
-    alt: "Dr. Srishti Mishra participating in a supervised clinical procedure.",
+    alt: "Dr. Srishti participating in a supervised clinical procedure.",
   },
   {
     image: "/images/patient-care.jpeg",
     title: "Patient-Centred Care",
     description:
       "Hospital and field-practice encounters focused on communication, continuity, and public health implementation.",
-    alt: "Dr. Srishti Mishra speaking with a patient in a hospital ward.",
+    alt: "Dr. Srishti speaking with a patient in a hospital ward.",
   },
 ];
 

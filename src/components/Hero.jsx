@@ -40,7 +40,7 @@ function Hero() {
           <div className="mx-auto w-full max-w-sm overflow-hidden rounded-[2rem] border border-white bg-white shadow-soft sm:max-w-md lg:max-w-none">
             <img
               src={profile.imagePath}
-              alt="Professional portrait of Dr. Srishti Mishra"
+              alt="Professional portrait of Dr. Srishti"
               className="aspect-[4/5] w-full object-cover object-center"
               loading="eager"
             />
