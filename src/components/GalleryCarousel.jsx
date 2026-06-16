@@ -1,5 +1,5 @@
 import { ArrowLeft, ArrowRight, Images } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { gallery } from "../data/profile.js";
 import SectionHeader from "./SectionHeader.jsx";
 
@@ -8,6 +8,14 @@ function GalleryCarousel() {
   const activeItem = gallery[activeIndex];
 
   const slideLabel = useMemo(() => `${activeIndex + 1} of ${gallery.length}`, [activeIndex]);
+
+  useEffect(() => {
+    const intervalId = window.setInterval(() => {
+      setActiveIndex((index) => (index === gallery.length - 1 ? 0 : index + 1));
+    }, 3000);
+
+    return () => window.clearInterval(intervalId);
+  }, []);
 
   const showPrevious = () => {
     setActiveIndex((index) => (index === 0 ? gallery.length - 1 : index - 1));

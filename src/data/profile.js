@@ -134,6 +134,27 @@ export const gallery = [
       "Hospital and field-practice encounters focused on communication, continuity, and public health implementation.",
     alt: "Dr. Srishti speaking with a patient in a hospital ward.",
   },
+  {
+    image: "/images/community-household-visit.jpeg",
+    title: "Community Household Visit",
+    description:
+      "Field-based family interaction supporting community assessment, outreach documentation, and preventive health practice.",
+    alt: "Dr. Srishti conducting a community household visit.",
+  },
+  {
+    image: "/images/postgraduate-summit.jpeg",
+    title: "Academic Conference Participation",
+    description:
+      "Participation in postgraduate academic forums focused on community medicine, public health, and professional development.",
+    alt: "Dr. Srishti at a postgraduate community medicine summit.",
+  },
+  {
+    image: "/images/health-camp-consultation.jpeg",
+    title: "Health Camp Consultation",
+    description:
+      "Community health camp work involving patient interaction, documentation, and basic clinical assessment.",
+    alt: "Dr. Srishti documenting a patient consultation at a health camp.",
+  },
 ];
 
 export const publications = [
