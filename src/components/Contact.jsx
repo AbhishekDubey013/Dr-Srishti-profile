@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Send } from "lucide-react";
+import { Mail, Send } from "lucide-react";
 import { profile } from "../data/profile.js";
 import SectionHeader from "./SectionHeader.jsx";
 
@@ -20,14 +20,6 @@ function Contact() {
                 <Mail size={19} aria-hidden="true" />
                 {profile.email}
               </a>
-              <a href={`tel:${profile.phone.replace(/\s/g, "")}`} className="contact-row">
-                <Phone size={19} aria-hidden="true" />
-                {profile.phone}
-              </a>
-              <p className="contact-row">
-                <MapPin size={19} aria-hidden="true" />
-                {profile.location}
-              </p>
             </div>
           </div>
 
