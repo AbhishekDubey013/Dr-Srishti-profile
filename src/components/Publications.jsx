@@ -6,7 +6,7 @@ function Publications() {
   return (
     <section id="publications" className="section-offset bg-white py-16 sm:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <SectionHeader eyebrow="Publications" title="Selected publications" />
+        <SectionHeader eyebrow="Research" title="Publications and accepted manuscripts" />
 
         <div className="grid gap-5 lg:grid-cols-3">
           {publications.map((publication) => (
@@ -15,8 +15,15 @@ function Publications() {
                 <FileText size={21} aria-hidden="true" />
               </div>
               <h3 className="text-lg font-semibold leading-7 text-ink">{publication.title}</h3>
+              {publication.status ? (
+                <p className="mt-4 w-fit rounded-full bg-medical-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-medical-800">
+                  {publication.status}
+                </p>
+              ) : null}
               <p className="mt-3 text-sm font-semibold text-medical-700">{publication.journal}</p>
+              {publication.type ? <p className="mt-2 text-sm text-slate-500">{publication.type}</p> : null}
               {publication.doi ? <p className="mt-2 text-sm text-slate-500">DOI: {publication.doi}</p> : null}
+              {publication.reference ? <p className="mt-2 text-sm text-slate-500">{publication.reference}</p> : null}
               <p className="mt-4 flex-1 leading-7 text-slate-600">{publication.note}</p>
               {publication.links?.length ? (
                 <div className="mt-6 flex flex-wrap gap-3">

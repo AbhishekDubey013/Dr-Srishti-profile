@@ -1,7 +1,7 @@
 export const profile = {
   name: "Dr. Srishti",
   credentials: "MBBS | MD Community Medicine",
-  role: "Community Medicine Resident | Public Health & Field Practice | Medical Education",
+  role: "Senior Resident, Community Medicine | Public Health & Field Practice | Medical Education",
   location: "Ahmedabad, Gujarat, India",
   email: "srshtm97@gmail.com",
   // Replace this file in public/images if a new professional portrait is used.
@@ -11,7 +11,7 @@ export const profile = {
   heroText:
     "Community Medicine physician with clinical, field-practice, academic, and public health experience across rural and urban health settings, with a focus on community-based care, maternal health, geriatric health, medical education, and public health implementation.",
   about:
-    "Dr. Srishti is an MBBS graduate and MD Community Medicine resident with experience in hospital-based clinical care, public health field practice, rural and urban health centre postings, community outreach, and undergraduate teaching support. Her work spans rural health services, antenatal care, geriatric health, medical student well-being, and community-based public health implementation.",
+    "Dr. Srishti is an MBBS graduate who has completed her MD in Community Medicine. She has experience in hospital-based clinical care, public health field practice, rural and urban health centre postings, community outreach, research, and undergraduate teaching support. Her work spans rural health services, antenatal care, geriatric health, medical student well-being, and community-based public health implementation.",
 };
 
 export const navigation = [
@@ -28,10 +28,9 @@ export const experience = [
   {
     title: "Senior Resident, Community Medicine",
     organization: "SBKS MIRC, Sumandeep Vidyapeeth",
-    date: "Oct 2026 - Oct 2027",
-    label: "Expected",
+    date: "Oct 2026 - Present",
     description:
-      "Focus: teaching, departmental academic work, field practice area supervision, and public health program support.",
+      "Teaching, departmental academic work, field practice area supervision, research, and public health program support.",
   },
   {
     title: "Junior Resident, MD Community Medicine",
@@ -61,6 +60,7 @@ export const education = [
     degree: "MD Community Medicine",
     institution: "SBKS MIRC, Sumandeep Vidyapeeth",
     date: "Oct 2023 - Oct 2026",
+    detail: "Completed",
   },
   {
     degree: "MBBS",
@@ -159,9 +159,73 @@ export const gallery = [
 export const publications = [
   {
     title:
+      "Healthcare Utilisation, Routine Healthcare Follow-up, and Financial Burden Among Older Adults with Chronic Illness in Western India",
+    journal: "Clinical Epidemiology and Global Health, 42 (2026), 102486",
+    doi: "10.1016/j.cegh.2026.102486",
+    status: "Published",
+    note:
+      "Secondary cross-sectional analysis of healthcare use, continuity of follow-up, and out-of-pocket expenditure among 380 older adults with chronic illnesses.",
+    links: [
+      {
+        label: "View Article",
+        href: "https://doi.org/10.1016/j.cegh.2026.102486",
+      },
+    ],
+  },
+  {
+    title:
+      "Exam Anxiety and Coping Strategies Among Undergraduate Medical Students: A Cross-Sectional Study",
+    journal: "Journal of Education and Health Promotion, 2026",
+    doi: "10.4103/jehp.jehp_540_26",
+    status: "Accepted",
+    note:
+      "Cross-sectional study among 415 MBBS students assessing exam anxiety, associated factors, and coping mechanisms.",
+    links: [
+      {
+        label: "View DOI",
+        href: "https://doi.org/10.4103/jehp.jehp_540_26",
+      },
+    ],
+  },
+  {
+    title:
+      "Healthcare-seeking Behavior and Associated Factors Among Postmenopausal Women in Rural and Urban Areas of Eastern Gujarat: A Community-based Study",
+    journal: "Journal of Mid-life Health, 2026",
+    doi: "10.4103/jmh.jmh_121_26",
+    status: "Accepted",
+    note:
+      "Community-based study of healthcare-seeking behavior, morbidity burden, access barriers, and related factors among 102 postmenopausal women.",
+    links: [
+      {
+        label: "View DOI",
+        href: "https://doi.org/10.4103/jmh.jmh_121_26",
+      },
+    ],
+  },
+  {
+    title:
+      "The Power of Community-Based Medical Education: A Case Report on Antenatal Care and Safe Delivery through Student Involvement in FAP",
+    journal: "Medical Journal of Dr. D.Y. Patil Vidyapeeth",
+    status: "Accepted",
+    reference: "Manuscript ID: mjdrdypu_900_25 | Accepted 22 Dec 2025",
+    note:
+      "Case report describing student involvement through the Family Adoption Programme in community-based antenatal care and safe delivery.",
+  },
+  {
+    title:
+      "Premature Birth, Poverty and Cultural Practices: A Case Report of Neonatal Mortality from Rural-Tribal Gujarat, India",
+    journal: "Journal of Krishna Institute of Medical Sciences University, 15(1), 2026",
+    status: "Published",
+    note:
+      "Case report examining how prematurity, maternal undernutrition, poverty, health literacy, and cultural practices can affect neonatal outcomes in a rural-tribal setting.",
+  },
+  {
+    title:
       "Importance of Rural Health Training Centre in Providing Successful Antenatal Care in a Rural Setting: A Model for Community Health",
     journal: "Medical Journal Armed Forces India / Elsevier",
     doi: "10.1016/j.mjafi.2025.08.002",
+    status: "Published",
+    type: "Correspondence / Letter to the Editor",
     note:
       "Field-based case highlighting the role of RHTCs, ASHA/ANM workers, and government schemes in successful antenatal care delivery in rural tribal settings.",
     links: [
@@ -177,15 +241,9 @@ export const publications = [
   },
   {
     title:
-      "Exam Anxiety and Coping Strategies Among Undergraduate Medical Students: A Cross-Sectional Study",
-    journal: "Journal of Education and Health Promotion, 2026",
-    note:
-      "Cross-sectional study among 415 MBBS students assessing exam anxiety, associated factors, and coping mechanisms.",
-  },
-  {
-    title:
       "Geriatric Health Care in Rural Setting: A Community-Based Case Report of an Older Adult with Hypertension",
     journal: "International Journal of Community Medicine and Public Health, 2026",
+    status: "Accepted",
     note:
       "Community-based case report emphasizing comprehensive geriatric assessment, hypertension care, lifestyle risk factors, and rural elderly health.",
   },
