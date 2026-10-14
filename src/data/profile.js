@@ -159,6 +159,22 @@ export const gallery = [
 export const publications = [
   {
     title:
+      "Perceived Changes in Health-Seeking Behaviour Following the COVID-19 Pandemic: A Qualitative Study of Urban and Rural Populations in Eastern Gujarat",
+    journal: "Cureus, 2026",
+    doi: "10.7759/cureus.117837",
+    status: "Published",
+    reference: "Published 13 Oct 2026",
+    note:
+      "Qualitative study exploring perceived post-pandemic changes in health-seeking behaviour across urban and rural communities in eastern Gujarat.",
+    links: [
+      {
+        label: "View Article",
+        href: "https://www.cureus.com/articles/513704-perceived-changes-in-health-seeking-behaviour-following-the-covid-19-pandemic-a-qualitative-study-of-urban-and-rural-populations-in-eastern-gujarat",
+      },
+    ],
+  },
+  {
+    title:
       "Healthcare Utilisation, Routine Healthcare Follow-up, and Financial Burden Among Older Adults with Chronic Illness in Western India",
     journal: "Clinical Epidemiology and Global Health, 42 (2026), 102486",
     doi: "10.1016/j.cegh.2026.102486",
@@ -244,6 +260,7 @@ export const publications = [
       "Geriatric Health Care in Rural Setting: A Community-Based Case Report of an Older Adult with Hypertension",
     journal: "International Journal of Community Medicine and Public Health, 2026",
     status: "Accepted",
+    reference: "Accepted 27 Apr 2026",
     note:
       "Community-based case report emphasizing comprehensive geriatric assessment, hypertension care, lifestyle risk factors, and rural elderly health.",
   },

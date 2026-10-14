@@ -350,6 +350,11 @@ def build_cv():
     story.extend(section("Peer-reviewed publications and accepted manuscripts"))
     publications = [
         (
+            "Sharma S, Pandit N, Jyotsana NJ, Mishra S. Perceived changes in health-seeking behaviour following the COVID-19 pandemic: A qualitative study of urban and rural populations in eastern Gujarat. <i>Cureus</i>. 2026;18(10):e117837.",
+            "Published 13 Oct 2026",
+            "10.7759/cureus.117837",
+        ),
+        (
             "Jyotsana NJ, Pandit NB, Mishra S, Kumar K, Aevara IS. Healthcare utilisation, routine healthcare follow-up, and financial burden among older adults with chronic illness in western India. <i>Clinical Epidemiology and Global Health</i>. 2026;42:102486.",
             "Published",
             "10.1016/j.cegh.2026.102486",
@@ -381,7 +386,7 @@ def build_cv():
         ),
         (
             "Mishra S, Parmar PC, Pandit NB, Jadhav S. Geriatric health care in rural setting: A community-based case report of an older adult with hypertension. <i>International Journal of Community Medicine and Public Health</i>. 2026.",
-            "Accepted",
+            "Accepted 27 Apr 2026",
             None,
         ),
     ]
