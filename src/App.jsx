@@ -3,6 +3,7 @@ import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import ExperienceTimeline from "./components/ExperienceTimeline.jsx";
 import Education from "./components/Education.jsx";
+import AdvancedTraining from "./components/AdvancedTraining.jsx";
 import FieldWork from "./components/FieldWork.jsx";
 import GalleryCarousel from "./components/GalleryCarousel.jsx";
 import Publications from "./components/Publications.jsx";
@@ -20,6 +21,7 @@ function App() {
         <About />
         <ExperienceTimeline />
         <Education />
+        <AdvancedTraining />
         <FieldWork />
         <GalleryCarousel />
         <Publications />

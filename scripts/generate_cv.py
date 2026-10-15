@@ -246,7 +246,11 @@ def build_cv():
         [
             [
                 Paragraph("Dr. Srishti Mishra", STYLES["name"]),
-                Paragraph("Ahmedabad, Gujarat, India<br/>srshtm97@gmail.com", STYLES["contact"]),
+                Paragraph(
+                    "Ahmedabad, Gujarat, India<br/>srshtm97@gmail.com<br/>"
+                    "<link href='https://www.drsrishti.in' color='#147D78'>www.drsrishti.in</link>",
+                    STYLES["contact"],
+                ),
             ],
             [
                 Paragraph("MBBS | MD Community Medicine", STYLES["credential"]),
@@ -392,6 +396,15 @@ def build_cv():
     ]
     for index, (citation, status, doi) in enumerate(publications, start=1):
         story.append(publication(index, citation, status, doi))
+
+    story.extend(section("Advanced training"))
+    story.append(
+        Paragraph(
+            "<b>3rd Winter Epidemiology School</b> | All India Institute of Medical Sciences, Nagpur<br/>"
+            "Focused training in regression analysis and quantitative bias analysis.",
+            STYLES["body"],
+        )
+    )
 
     story.extend(section("Research contribution highlights"))
     highlights = [

@@ -18,6 +18,7 @@ export const navigation = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
   { label: "Experience", href: "#experience" },
+  { label: "Training", href: "#training" },
   { label: "Field Work", href: "#field-work" },
   { label: "Gallery", href: "#gallery" },
   { label: "Publications", href: "#publications" },
@@ -79,6 +80,32 @@ export const education = [
     detail: "School Topper | 95%",
   },
 ];
+
+export const advancedTraining = {
+  title: "3rd Winter Epidemiology School",
+  institution: "All India Institute of Medical Sciences, Nagpur",
+  description:
+    "Completed focused training in regression analysis and quantitative bias analysis, strengthening the application and critical interpretation of advanced epidemiological methods in health research.",
+  topics: ["Regression analysis", "Quantitative bias analysis"],
+  images: [
+    {
+      image: "/images/winter-epidemiology-school-session.jpg",
+      alt: "Applied epidemiology teaching session at AIIMS Nagpur.",
+    },
+    {
+      image: "/images/winter-epidemiology-school-cohort.jpg",
+      alt: "Participants and faculty at the 3rd Winter Epidemiology School at AIIMS Nagpur.",
+    },
+    {
+      image: "/images/winter-epidemiology-school-workshop.jpg",
+      alt: "Small-group analytical workshop during the Winter Epidemiology School.",
+    },
+    {
+      image: "/images/winter-epidemiology-school-analysis.jpg",
+      alt: "Participants working through a quantitative analysis exercise at AIIMS Nagpur.",
+    },
+  ],
+};
 
 export const fieldWork = [
   {
